@@ -35,8 +35,8 @@ app.use(
 // Route for the root URL to provide instructions or a simple homepage
 app.get('/', (req, res) => {
   res.send(`
-    <h1>Welcome to Google Sheets App</h1>
-    <p><a href="/login">Log in with Google</a> to start using the application.</p>
+    <h1>Welcome to the Seal Dashboard App</h1>
+    <p><a href="/login">Log in with Google</a> to start using the app.</p>
   `);
 });
 
